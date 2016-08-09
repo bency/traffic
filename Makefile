@@ -1,5 +1,6 @@
 all:
 	git pull
+	git push
 	npm install
 	gulp
 	composer install
