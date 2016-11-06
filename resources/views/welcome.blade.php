@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-8">
             <img class="thumbnail center-block" src="//fakeimg.pl/600x300/">
-            <h3 class="text-center">新。考照制度提案書</h3>
+            <h3 class="text-center"><a href="/newlicense">新。考照制度提案書</a></h3>
         </div>
         <div class="col-md-4">
             <img class="thumbnail center-block" src="//fakeimg.pl/300/">
@@ -16,7 +16,7 @@
     <div class="row">
         <div class="col-md-8">
             <img class="thumbnail center-block" src="//fakeimg.pl/600x300/">
-            <h3 class="text-center">新。考照制度提案書</h3>
+            <h3 class="text-center"><a href="/newlicense">新。考照制度提案書</a></h3>
         </div>
         <div class="col-md-4">
             <img class="thumbnail center-block" src="//fakeimg.pl/300/">
