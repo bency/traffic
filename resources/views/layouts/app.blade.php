@@ -46,7 +46,9 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/home') }}">Home</a></li>
+                    <li><a href="{{ url('/news') }}">焦點文章</a></li>
+                    <li><a href="{{ url('/core') }}">中心思想</a></li>
+                    <li><a href="{{ url('/safety') }}">交通安全 Q&A</a></li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->
