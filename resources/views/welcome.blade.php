@@ -21,7 +21,7 @@
     </div>
     <hr class="hidden-lg">
     <div class="row">
-        <img class="thumbnail center-block col-md-4 col-xs-12" src="//fakeimg.pl/300/?text=img-2">
+        <img class="thumbnail center-block col-md-4 col-xs-12" src="/images/image-2.jpg">
         <div class="col-md-8">
             <div class="page-header">
                 <h1 class="text-center">觀察現象</h1>
@@ -49,7 +49,7 @@
     </div>
     <hr class="hidden-lg">
     <div class="row">
-        <img class="thumbnail center-block col-md-4" src="//fakeimg.pl/300/?text=img-4">
+        <img class="thumbnail center-block col-md-4" src="/images/image-4.png">
         <div class="col-md-8">
             <div class="page-header">
                 <h1 class="text-center">台灣的考照制度變革提案</h1>
