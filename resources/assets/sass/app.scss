@@ -15,4 +15,9 @@ li {
     line-height: 1.7;
     margin-bottom: 15px;
 }
+footer {
+    padding: 20px;
+    border-top: 1px solid #eeeeee;
+    box-shadow: inset rgba(41, 38, 38, 0.9) 0 0 0 50vw;
+}
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
