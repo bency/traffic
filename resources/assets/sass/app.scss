@@ -10,4 +10,7 @@ body {
     background-size: cover;
     box-shadow: inset rgba(0, 0, 0, .4) 0 0 0 50vw;
 }
+li {
+    text-shadow: #000 0 0 5px;
+}
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
