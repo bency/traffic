@@ -38,6 +38,14 @@
 
     @yield('content')
 
+        <footer class="footer">
+            <dl class="dl-horizontal">
+                <dt></dt>
+                <dd>台灣交通安全協會</dd>
+                <dd>新北市三重區重新路4段244巷8號</dd>
+                <dd><a href="mailto:rightofwaytw@gmail.com" target="_blank">rightofwaytw@gmail.com</a></dd>
+            </dl>
+        </footer>
     <!-- JavaScripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js" integrity="sha384-I6F5OKECLVtK/BL+8iSLDEHowSAfUo76ZL9+kGAgTRdiByINKJaqTPH/QVNS1VDb" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
