@@ -3,4 +3,11 @@ $text-color: #fff;
 $navbar-default-bg: rgba(33, 69, 101, 0);
 $navbar-default-link-color: #fff;
 $jumbotron-bg: rgba(0, 0, 0, 0.58);
+body {
+    background-image: url('/images/bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset rgba(0, 0, 0, .4) 0 0 0 50vw;
+}
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
