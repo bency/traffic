@@ -58,7 +58,7 @@
         <img class="thumbnail center-block col-md-4" src="/images/image-4.png">
         <div class="col-md-8">
             <div class="page-header">
-                <h1 class="text-center">台灣的考照制度變革提案</h1>
+                <h1 class="text-center">考照制度變革提案</h1>
             </div>
             <ul>
                 <li>透過考照升級制度，教育用路人安全駕駛的觀念及行為，其中包含新增機車駕訓班(類似汽車駕訓班)、提高筆試廣度、納入實際道路路考或場考試題多元涵蓋各種情境</li>
