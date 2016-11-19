@@ -5,6 +5,7 @@ $navbar-default-link-color: #fff;
 $jumbotron-bg: rgba(0, 0, 0, 0.58);
 $navbar-height: 70px;
 $navbar-padding-vertical: 15px;
+$navbar-default-link-hover-color: $navbar-default-link-color;
 $font-size-base: 20px;
 .navbar-brand:after {
     display: block;
@@ -13,6 +14,13 @@ $font-size-base: 20px;
     line-height: 20px;
     color: yellow;
     content: "Taiwan Traffic Safety Association";
+}
+.navbar-nav > li > a {
+    &:hover, &:focus {
+        background-color: rgba(0, 0, 0, 0);
+        color: $navbar-default-link-color;
+        border-bottom: 1px solid;
+    }
 }
 body {
     padding-top: 60px;
