@@ -10,7 +10,7 @@ $font-size-base: 20px;
 .navbar-brand:after {
     display: block;
     text-align: center;
-    font-size: 8px;
+    font-size: ceil(($font-size-base * 0.5));
     color: black;
     content: "Taiwan Traffic Safety Association";
     background-color: yellow;
