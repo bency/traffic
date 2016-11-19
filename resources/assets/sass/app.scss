@@ -4,18 +4,13 @@ $navbar-default-bg: rgba(80, 76, 76, 0.9);
 $navbar-default-link-color: #fff;
 $jumbotron-bg: rgba(0, 0, 0, 0.58);
 $font-size-base: 20px;
-.navbar {
-    padding-bottom: 20px;
-}
 .navbar-brand:after {
     display: block;
     text-align: center;
     font-size: ceil(($font-size-base * 0.5));
     line-height: 20px;
-    color: black;
+    color: yellow;
     content: "Taiwan Traffic Safety Association";
-    background-color: yellow;
-    margin-top: 6px;
 }
 body {
     padding-top: 60px;
