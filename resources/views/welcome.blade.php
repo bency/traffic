@@ -7,12 +7,12 @@
     </div>
 </div>
 <div class="container">
-    <div class="row">
-        <img class="thumbnail center-block col-md-4" src="/images/image-1.jpg">
-        <div class="col-md-8">
             <div class="page-header">
                 <h1 class="text-center">提案目的</h1>
             </div>
+    <div class="row">
+        <img class="thumbnail center-block col-md-4" src="/images/image-1.jpg">
+        <div class="col-md-8">
             <ul>
                 <li>建議政府從根本的體制面改革，改變用路人交通安全觀念、行為，交通安全自然提升</li>
                 <li>採用提案方式，與政府、社會理性溝通，期待社會能深度、理性溝通政策</li>
@@ -22,12 +22,12 @@
         </div>
     </div>
     <hr class="hidden-lg">
-    <div class="row">
-        <img class="thumbnail center-block col-md-4 col-xs-12" src="/images/image-2.jpg">
-        <div class="col-md-8">
             <div class="page-header">
                 <h1 class="text-center">觀察現象</h1>
             </div>
+    <div class="row">
+        <img class="thumbnail center-block col-md-4 col-xs-12" src="/images/image-2.jpg">
+        <div class="col-md-8">
             <ul>
                 <li>名列已開發國家，但車禍死傷卻遠高於已開發國家</li>
                 <li>少子化嚴重，但年輕人為車禍死傷的高發族群</li>
@@ -40,12 +40,12 @@
         </div>
     </div>
     <hr class="hidden-lg">
-    <div class="row">
-        <img class="thumbnail center-block col-md-4" src="/images/image-3.jpg">
-        <div class="col-md-8">
             <div class="page-header">
                 <h1 class="text-center">我們與他國的差異</h1>
             </div>
+    <div class="row">
+        <img class="thumbnail center-block col-md-4" src="/images/image-3.jpg">
+        <div class="col-md-8">
             <ul>
                 <li>安全教育：世界各國考照費用普遍比較高，並在用路觀念教育相對台灣確實，甚至於從學齡開始即灌輸交通安全觀念，並與民間交通安全團體共同合作推廣</li>
                 <li>機汽車考照制度：各國術科測驗大多採用實際道路考照，如德國的一般道路駕駛、高速公路駕駛、夜間駕駛；英國的道路使用者行為、車輛控制與駕駛行為、路況與天氣限制</li>
@@ -54,12 +54,12 @@
         </div>
     </div>
     <hr class="hidden-lg">
-    <div class="row">
-        <img class="thumbnail center-block col-md-4" src="/images/image-4.png">
-        <div class="col-md-8">
             <div class="page-header">
                 <h1 class="text-center">考照制度變革提案</h1>
             </div>
+    <div class="row">
+        <img class="thumbnail center-block col-md-4" src="/images/image-4.png">
+        <div class="col-md-8">
             <ul>
                 <li>透過考照升級制度，教育用路人安全駕駛的觀念及行為，其中包含新增機車駕訓班(類似汽車駕訓班)、提高筆試廣度、納入實際道路路考或場考試題多元涵蓋各種情境</li>
                 <li>採分階段逐步發照，包括考照前的學習駕照，考照及格後先取得新手駕照，提醒用路人小心新手開車，同時亦考核新手開車習慣，通過後再取得正式駕照。若正式駕照達一定期間均無違規肇事紀錄，則可取得優良駕照</li>
