@@ -8,7 +8,7 @@
     </div>
     <div class="container">
         <div class="page-header">
-            <h1 class="text-center">提案目的</h1>
+            <h1 id="purpose" class="text-center">提案目的</h1>
         </div>
         <div class="row">
             <img class="thumbnail center-block col-md-4" src="/images/image-1.jpg">
@@ -23,7 +23,7 @@
         </div>
         <hr class="hidden-lg">
         <div class="page-header">
-            <h1 class="text-center">觀察現象</h1>
+            <h1 id="observation" class="text-center">觀察現象</h1>
         </div>
         <div class="row">
             <img class="thumbnail center-block col-md-4 col-xs-12" src="/images/image-2.jpg">
@@ -41,7 +41,7 @@
         </div>
         <hr class="hidden-lg">
         <div class="page-header">
-            <h1 class="text-center">我們與他國的差異</h1>
+            <h1 id="differences" class="text-center">我們與他國的差異</h1>
         </div>
         <div class="row">
             <img class="thumbnail center-block col-md-4" src="/images/image-3.jpg">
@@ -55,7 +55,7 @@
         </div>
         <hr class="hidden-lg">
         <div class="page-header">
-            <h1 class="text-center">考照制度變革提案</h1>
+            <h1 id="propose" class="text-center">考照制度變革提案</h1>
         </div>
         <div class="row">
             <img class="thumbnail center-block col-md-4" src="/images/image-4.png">

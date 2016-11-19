@@ -52,9 +52,10 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/news') }}">焦點文章</a></li>
-                    <li><a href="{{ url('/core') }}">中心思想</a></li>
-                    <li><a href="{{ url('/safety') }}">交通安全 Q&A</a></li>
+                    <li><a href="#purpose">提案目的</a></li>
+                    <li><a href="#observation">觀察現象</a></li>
+                    <li><a href="#differences">與他國差異</a></li>
+                    <li><a href="#propose">考照制度變革提案</a></li>
                 </ul>
             </div>
         </div>
