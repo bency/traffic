@@ -6,6 +6,8 @@ $jumbotron-bg: rgba(0, 0, 0, 0.58);
 $navbar-height: 70px;
 $navbar-padding-vertical: 15px;
 $navbar-default-link-hover-color: $navbar-default-link-color;
+$navbar-default-link-active-color: $navbar-default-link-color;
+$navbar-default-link-active-bg: $navbar-default-bg;
 $font-size-base: 20px;
 .navbar-brand:after {
     display: block;
