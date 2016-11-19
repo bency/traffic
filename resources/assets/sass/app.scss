@@ -21,6 +21,11 @@ $font-size-base: 20px;
         border-bottom: 1px solid;
         }
     }
+    > .active > a {
+        & {
+            border-bottom: 1px solid #fff;
+        }
+    }
 }
 body {
     padding-top: 60px;
