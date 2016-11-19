@@ -15,9 +15,11 @@ $font-size-base: 20px;
     color: yellow;
     content: "Taiwan Traffic Safety Association";
 }
-.navbar-nav > li > a {
+.navbar-nav {
+    > li > a {
     &:hover, &:focus {
         border-bottom: 1px solid;
+        }
     }
 }
 body {
