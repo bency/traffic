@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="{{ url('/images/og-1.png')}}">
+    <meta property="og:image" content="{{ url('/images/og-2.png')}}">
+    <meta property="og:url" content="{{ url('/')}}">
+    <meta property="og:title" content="台灣交通安全協會 - 道路交通安全升級提案書">
+    <meta property="og:description" content="路安聯盟結合了台灣交通安全協會、台灣機車路權促進會、小老婆汽機車資訊網等長期關注國內道路安全的團體，亦遍尋國外相關作為，實際到國外體驗駕駛行為，希望用國際觀點，改善國內長期難解的交通安全問題">
 
     <title>台灣交通安全協會</title>
 
