@@ -30,8 +30,8 @@
 
     </script>
 </head>
-<body id="app-layout">
-    <nav class="navbar navbar-default navbar-fixed-top">
+<body id="app-layout" data-spy="scroll" data-target="#navbar">
+    <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
 
