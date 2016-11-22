@@ -70,7 +70,7 @@
         <dl class="dl-horizontal">
             <dt></dt>
             <dd>台灣交通安全協會</dd>
-            <dd>新北市三重區重新路4段244巷8號</dd>
+            <dd>新北市三重區重新路 4 段 244 巷 8 號</dd>
             <dd><a href="mailto:rightofwaytw@gmail.com" target="_blank">rightofwaytw@gmail.com</a></dd>
         </dl>
     </footer>
