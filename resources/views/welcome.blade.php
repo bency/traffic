@@ -77,11 +77,5 @@
                 </ul>
             </div>
         </div>
-        <div class="page-header">
-            <h1 id="countersigned" class="text-center">我同意這提案</h1>
-        </div>
-        <div class="row">
-            <iframe class="col-md-12" src="https://docs.google.com/forms/d/e/1FAIpQLSfIZN5hHVRuQwzPMwgUCXljgan8i_wf5AzdsAINbVYNCrC6xg/viewform?embedded=true" height="500" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
-        </div>
     </div>
 @endsection
