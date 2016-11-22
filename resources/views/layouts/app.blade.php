@@ -57,6 +57,7 @@
                     <li><a class="menu-item" href="#observation">觀察現象</a></li>
                     <li><a class="menu-item" href="#differences">與他國差異</a></li>
                     <li><a class="menu-item" href="#propose">考照制度變革提案</a></li>
+                    <li><a class="menu-item" href="#countersigned">我同意這提案</a></li>
                 </ul>
             </div>
         </div>
