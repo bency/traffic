@@ -78,6 +78,10 @@
             </div>
         </div>
         @if(!$agent->is('iPhone'))
+        <hr class="hidden-lg">
+        <div class="page-header">
+            <h1 id="propose" class="text-center">提案連署書</h1>
+        </div>
         <div class="row">
             <div class="col-md-12">
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIZN5hHVRuQwzPMwgUCXljgan8i_wf5AzdsAINbVYNCrC6xg/viewform?embedded=true#responses" height="500" width="100%" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
