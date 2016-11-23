@@ -80,7 +80,7 @@
         @if(!$agent->is('iPhone'))
         <div class="row">
             <div class="col-md-12">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIZN5hHVRuQwzPMwgUCXljgan8i_wf5AzdsAINbVYNCrC6xg/viewform?embedded=true#responses" height="500" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIZN5hHVRuQwzPMwgUCXljgan8i_wf5AzdsAINbVYNCrC6xg/viewform?embedded=true#responses" height="500" width="100%" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
             </div>
         </div>
         @endif
