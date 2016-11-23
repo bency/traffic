@@ -1,11 +1,6 @@
 @extends('layouts.app')
 @inject('agent', 'Jenssegers\Agent\Agent')
 @section('content')
-    <div class="jumbotron hidden-xs">
-        <div class="container">
-            <img class="thumbnail center-block col-xs-12 hidden-xs" src="/images/banner.png">
-        </div>
-    </div>
     <div class="container">
         <h1>道路交通安全升級提案</h1>
         <div>
