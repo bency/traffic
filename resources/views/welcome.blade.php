@@ -86,7 +86,9 @@
         @endif
         <div class="row">
             <a class="btn btn-primary btn-block" href="https://docs.google.com/document/d/19DJmVa-98jt1RywYCyYHXnPnF5Fo0iOOwWFJyB4IL98/edit?usp=sharing">提案詳情 <span class="glyphicon glyphicon-new-window"></span></a>
+            @if($agent->is('iPhone'))
             <a class="btn btn-primary btn-block" href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2">我同意提案 想幫忙連署 <span class="glyphicon glyphicon-new-window"></span></a>
+            @endif
         </div>
     </div>
 @endsection
