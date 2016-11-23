@@ -2,6 +2,10 @@
 @inject('agent', 'Jenssegers\Agent\Agent')
 @section('content')
     <div class="container">
+        <div class="well">
+            <h1 class="text-center">已有 <span class="countersigned-count label label-info">...</span> 人</h1>
+            <h1 class="text-center">參加連署</h1>
+        </div>
         <h1>道路交通安全升級提案</h1>
         <div>
             <p>交通部長上任後召開部務會議宣示未來半年五大優先工作，其中「努力減少交通傷亡」列為第二大重要工作。
