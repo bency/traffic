@@ -2,7 +2,7 @@
 @inject('agent', 'Jenssegers\Agent\Agent')
 @section('content')
     <div class="container">
-        <div class="well">
+        <div data-type="ga-click" data-target="well" data-href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2" class="well">
             <h1 class="text-center">已有 <span class="countersigned-count label label-info">...</span> 人</h1>
             <h1 class="text-center">參加連署</h1>
         </div>
@@ -90,9 +90,9 @@
         </div>
         @endif
         <div class="row">
-            <a class="btn btn-primary btn-block" href="https://docs.google.com/document/d/19DJmVa-98jt1RywYCyYHXnPnF5Fo0iOOwWFJyB4IL98/edit?usp=sharing">提案詳情 <span class="glyphicon glyphicon-new-window"></span></a>
+            <a data-type="ga-click" data-target="proposal-link" class="btn btn-primary btn-block" data-href="https://docs.google.com/document/d/19DJmVa-98jt1RywYCyYHXnPnF5Fo0iOOwWFJyB4IL98/edit?usp=sharing">提案詳細內容 <span class="glyphicon glyphicon-new-window"></span></a>
             @if($agent->is('iPhone'))
-            <a class="btn btn-primary btn-block" href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2">我同意提案 想幫忙連署 <span class="glyphicon glyphicon-new-window"></span></a>
+            <a data-type="ga-click" data-target="countersigned-link" class="btn btn-primary btn-block" data-href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2">我同意提案 想幫忙連署 <span class="glyphicon glyphicon-new-window"></span></a>
             @endif
         </div>
     </div>
