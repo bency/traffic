@@ -78,6 +78,11 @@
             </div>
         </div>
         <div class="row">
+            <div class="col-md-12">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIZN5hHVRuQwzPMwgUCXljgan8i_wf5AzdsAINbVYNCrC6xg/viewform?embedded=true#responses" height="500" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+            </div>
+        </div>
+        <div class="row">
             <a class="btn btn-primary btn-block" href="https://docs.google.com/document/d/19DJmVa-98jt1RywYCyYHXnPnF5Fo0iOOwWFJyB4IL98/edit?usp=sharing">提案詳情 <span class="glyphicon glyphicon-new-window"></span></a>
             <a class="btn btn-primary btn-block" href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2">我同意提案 <span class="glyphicon glyphicon-new-window"></span></a>
         </div>
