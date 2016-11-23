@@ -6,7 +6,9 @@
             <h1 class="text-center">已有 <span class="countersigned-count label label-info">...</span> 人</h1>
             <h1 class="text-center">參加連署</h1>
         </div>
-        <h1>道路交通安全升級提案</h1>
+        <div class="page-header">
+            <h1 class="text-center">道路交通安全升級提案</h1>
+        </div>
         <div>
             <p>交通部長上任後召開部務會議宣示未來半年五大優先工作，其中「努力減少交通傷亡」列為第二大重要工作。
             賀陳部長表示，台灣每年車禍死亡 3,000 人，受傷 41 萬人，若以每萬輛車事故率計算，台灣堪稱世界第一，「這是很不榮耀的第一」，也是國家未來社會力的重大損失。交通部將會全面改進交通安全的技術及宣傳作法。</p>
