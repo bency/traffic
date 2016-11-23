@@ -19,3 +19,4 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 Route::get('/newlicense', 'HomeController@newlicense');
+Route::get('/countersigned', 'HomeController@getcountersigned');
