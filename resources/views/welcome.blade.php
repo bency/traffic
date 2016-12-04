@@ -2,10 +2,6 @@
 @inject('agent', 'Jenssegers\Agent\Agent')
 @section('content')
     <div class="container">
-        <div data-type="ga-click" data-target="well" data-href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2" class="well">
-            <h1 class="text-center">已有 <span class="countersigned-count label label-info">...</span> 人</h1>
-            <h1 class="text-center">參加連署</h1>
-        </div>
         <div class="page-header">
             <h1 class="text-center">道路交通安全升級提案</h1>
         </div>

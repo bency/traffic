@@ -79,5 +79,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="{{ elixir('js/app.js') }}"></script>
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
+    <nav id="navbar" class="navbar-footer navbar-fixed-bottom">
+        <p data-type="ga-click" data-target="bottom-nav" data-href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2" class="text-center">已有 <span class="countersigned-count label label-danger">...</span> 人參加連署</p>
+    </nav>
 </body>
 </html>
