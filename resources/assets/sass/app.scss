@@ -15,6 +15,19 @@ $font-size-base: 20px;
 $font-family-sans-serif: Arial, 微軟正黑體;
 $page-header-border-color: rgba(238, 238, 238, 0.52);
 
+.navbar-footer {
+    background: rgba(255, 255, 255, 0.9);
+    max-height: 50px;
+    min-height: 30px;
+    p {
+        margin: -3px 0px 14px;
+        color: #656565;
+    }
+    .label {
+        font-size: 100%;
+        background-color: #f00;
+    }
+}
 .navbar-brand:after {
     display: block;
     text-align: center;
@@ -49,7 +62,8 @@ li {
     margin-bottom: 15px;
 }
 footer {
-    padding: 20px;
+    font-size: 14px;
+    padding: 20px 20px 40px;
     border-top: 1px solid #eeeeee;
     box-shadow: inset rgba(41, 38, 38, 0.9) 0 0 0 50vw;
 }
