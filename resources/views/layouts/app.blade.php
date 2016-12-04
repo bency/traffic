@@ -58,7 +58,7 @@
                     <li><a class="menu-item" href="#differences">與他國差異</a></li>
                     <li><a class="menu-item" href="#propose">考照制度變革提案</a></li>
                     <li><a data-type="ga-click" data-target="menu-countersigned-link" class="menu-item" data-href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2">我同意提案 <span class="glyphicon glyphicon-new-window"></span></a></li>
-                    <li><a data-type="ga-click" data-target="menu-proposal-link" class="menu-item" data-href="https://docs.google.com/document/d/19DJmVa-98jt1RywYCyYHXnPnF5Fo0iOOwWFJyB4IL98/edit?usp=sharing">提案詳情 <span class="glyphicon glyphicon-new-window"></span></a></li>
+                    <li><a data-type="ga-click" data-target="menu-proposal-link" class="menu-item" data-href="{{ url('/docs/交通安全升級提案書_20161127.pdf') }}">提案詳情 <span class="glyphicon glyphicon-new-window"></span></a></li>
                 </ul>
             </div>
         </div>

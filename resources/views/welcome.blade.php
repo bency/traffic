@@ -90,7 +90,7 @@
         </div>
         @endif
         <div class="row">
-            <a data-type="ga-click" data-target="proposal-link" class="btn btn-primary btn-block" data-href="https://docs.google.com/document/d/19DJmVa-98jt1RywYCyYHXnPnF5Fo0iOOwWFJyB4IL98/edit?usp=sharing">提案詳細內容 <span class="glyphicon glyphicon-new-window"></span></a>
+            <a data-type="ga-click" data-target="proposal-link" class="btn btn-primary btn-block" data-href="{{ url('/docs/交通安全升級提案書_20161127.pdf') }}">提案詳細內容 <span class="glyphicon glyphicon-new-window"></span></a>
             @if($agent->is('iPhone'))
             <a data-type="ga-click" data-target="countersigned-link" class="btn btn-primary btn-block" data-href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2">我同意提案 想幫忙連署 <span class="glyphicon glyphicon-new-window"></span></a>
             @endif
