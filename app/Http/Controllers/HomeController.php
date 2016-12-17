@@ -42,6 +42,9 @@ class HomeController extends Controller
 
     public function getcountersigned()
     {
+        if ($total = cache::get('countersign.total')) {
+            return response()->json($total);
+        }
         // Get the API client and construct the service object.
         $client = $this->getClient();
         $service = new \Google_Service_Sheets($client);
@@ -52,6 +55,8 @@ class HomeController extends Controller
         $range = 'sheet1!L2:L3';
         $response = $service->spreadsheets_values->get($spreadsheetId, $range);
         $values = $response->getValues();
-        return response()->json($values[0][0]);
+        $total = $values[0][0];
+        cache::put('countersign.total', $total, 10);
+        return response()->json($total);
     }
 }
