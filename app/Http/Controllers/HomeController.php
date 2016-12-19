@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
+use App\Countersign;
 use Cache;
 use Illuminate\Http\Request;
 
@@ -46,17 +47,7 @@ class HomeController extends Controller
         if ($total = cache::get('countersign.total')) {
             return response()->json($total);
         }
-        // Get the API client and construct the service object.
-        $client = $this->getClient();
-        $service = new \Google_Service_Sheets($client);
-
-        // Prints the names and majors of students in a sample spreadsheet:
-        // https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
-        $spreadsheetId = '1zrePCMq2lPVnZcjDk4ky8zuafVq-k_Xp3whI_e-VZ2I';
-        $range = 'sheet1!L2:L3';
-        $response = $service->spreadsheets_values->get($spreadsheetId, $range);
-        $values = $response->getValues();
-        $total = $values[0][0];
+        $total = Countersign::count();
         cache::put('countersign.total', $total, 10);
         return response()->json($total);
     }
