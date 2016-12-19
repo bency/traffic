@@ -79,7 +79,7 @@ class Countersigned extends Command
                 var_dump($date, $signed);
             }
             try {
-            $signed = CountersignService::add($signed);
+                $signed = CountersignService::add($signed);
             } catch (QueryException $e) {
                 $this->comment("重複連署：" . $e->getMessage());
             }
