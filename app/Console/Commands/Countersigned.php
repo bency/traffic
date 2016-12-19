@@ -4,6 +4,8 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use Cache;
+use App\Services\CountersignService;
+use Illuminate\Database\QueryException;
 
 class Countersigned extends Command
 {
@@ -61,7 +63,26 @@ class Countersigned extends Command
         $end = $total + 1;
         $range = "sheet1!A2:D$end";
         $response = $service->spreadsheets_values->get($spreadsheetId, $range);
-        $total = $response->getValues();
-        $this->comment(print_r($total, true));
+        $signed_list = $response->getValues();
+        foreach ($signed_list as $signed) {
+            $date = $signed[0];
+            $patterns = [
+                "/([0-9]{4}\/[0-9]{1,2}\/[0-9]{1,2}) 上午 ([0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2})/",
+                "/([0-9]{4}\/[0-9]{1,2}\/[0-9]{1,2}) 下午 ([0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2})/",
+            ];
+            $replacements = [
+                "\\1 \\2 AM",
+                "\\1 \\2 PM",
+            ];
+            $signed[0] = strtotime(preg_replace($patterns, $replacements, $date));
+            if (!$signed[0]) {
+                var_dump($date, $signed);
+            }
+            try {
+            $signed = CountersignService::add($signed);
+            } catch (QueryException $e) {
+                $this->comment("重複連署：" . $e->getMessage());
+            }
+        }
     }
 }
