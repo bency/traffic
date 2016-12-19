@@ -59,7 +59,7 @@ class Countersigned extends Command
         $total = $response->getValues()[0][0];
 
         $end = $total + 1;
-        $range = "sheet1!A1:D$end";
+        $range = "sheet1!A2:D$end";
         $response = $service->spreadsheets_values->get($spreadsheetId, $range);
         $total = $response->getValues();
         $this->comment(print_r($total, true));
