@@ -53,10 +53,6 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li><a class="menu-item" href="#purpose">提案目的</a></li>
-                    <li><a class="menu-item" href="#observation">觀察現象</a></li>
-                    <li><a class="menu-item" href="#differences">與他國差異</a></li>
-                    <li><a class="menu-item" href="#propose">考照制度變革提案</a></li>
                     <li><a data-type="ga-click" data-target="menu-countersigned-link" class="menu-item" data-href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2">我要連署 <span class="glyphicon glyphicon-new-window"></span></a></li>
                     <li><a data-type="ga-click" data-target="menu-proposal-link" class="menu-item" data-href="{{ url('/docs/交通安全升級提案書_20161127.pdf') }}">提案詳情 <span class="glyphicon glyphicon-new-window"></span></a></li>
                 </ul>
