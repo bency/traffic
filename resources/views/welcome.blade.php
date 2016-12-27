@@ -5,6 +5,7 @@
         <div class="page-header">
             <h1 class="text-center">交通安全升級提案連署書</h1>
         </div>
+        <h4 class="text-center"><span class="label label-primary">#路安提案</span><span></span><span class="label label-info">#考照加嚴</span><span class="label label-danger">#違規記點加重</span><span class="label label-success">#交通安全教育</span></h4>
         <div>
             <p>交通部長上任後召開部務會議宣示未來半年五大優先工作，其中「努力減少交通傷亡」列為第二大重要工作。
             賀陳部長表示，台灣每年車禍死亡 3,000 人，受傷 41 萬人，若以每萬輛車事故率計算，台灣堪稱世界第一，「這是很不榮耀的第一」，也是國家未來社會力的重大損失。交通部將會全面改進交通安全的技術及宣傳作法。</p>
