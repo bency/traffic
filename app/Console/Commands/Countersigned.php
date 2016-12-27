@@ -4,6 +4,8 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use Cache;
+use App\Countersign;
+use Maknz\Slack\Client;
 use App\Services\CountersignService;
 use Illuminate\Database\QueryException;
 
@@ -83,6 +85,13 @@ class Countersigned extends Command
             } catch (QueryException $e) {
                 $this->comment("重複連署：" . $e->getMessage());
             }
+        }
+        $total = Countersign::all()->count();
+        $old_total = Cache::get('total');
+        if ($total > ($old_total + 100)) {
+            $client = new Client(env('SLACK_INCOMING_HOOK'));
+            $client->from('TrafficBot')->to('#robotstaging')->send("連署人數： $total");
+            Cache::put('total', $total);
         }
     }
 }
