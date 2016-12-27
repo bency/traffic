@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="page-header">
-            <h1 class="text-center">道路交通安全升級提案</h1>
+            <h1 class="text-center">交通安全升級提案連署書</h1>
         </div>
         <div>
             <p>交通部長上任後召開部務會議宣示未來半年五大優先工作，其中「努力減少交通傷亡」列為第二大重要工作。
