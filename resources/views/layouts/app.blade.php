@@ -53,6 +53,8 @@
             <div class="collapse navbar-collapse pull-right" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
+                    <li class="{{ ($current == 'home') ? 'active' : '' }}"><a class="menu-item" href="{{url('/')}}">提案內容</a></li>
+                    <li class="{{ ($current == 'polis') ? 'active' : '' }}"><a class="menu-item" href="{{url('/polis')}}">社會討論</a></li>
                     <li><a data-type="ga-click" data-target="menu-countersigned-link" class="menu-item" data-href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2">我要連署 <span class="glyphicon glyphicon-new-window"></span></a></li>
                     <li><a data-type="ga-click" data-target="menu-proposal-link" class="menu-item" data-href="{{ url('/docs/交通安全升級提案書_20161127.pdf') }}">提案詳情 <span class="glyphicon glyphicon-new-window"></span></a></li>
                 </ul>

@@ -12,11 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome', ['current' => 'home']);
 });
 
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/polis', 'HomeController@polis');
 Route::get('/newlicense', 'HomeController@newlicense');
 Route::get('/countersigned', 'HomeController@getcountersigned');

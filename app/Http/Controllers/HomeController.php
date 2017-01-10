@@ -25,7 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('home', ['current' => 'home']);
     }
 
     public function newlicense()
@@ -50,5 +50,10 @@ class HomeController extends Controller
         $total = Countersign::count();
         cache::put('countersign.total', $total, 10);
         return response()->json($total);
+    }
+
+    public function polis()
+    {
+        return view('polis', ['current' => 'polis']);
     }
 }
