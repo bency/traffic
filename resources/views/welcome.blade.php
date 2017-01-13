@@ -16,7 +16,6 @@
             <h1 id="purpose" class="text-center">提案目的</h1>
         </div>
         <div class="row">
-            <img class="thumbnail center-block col-md-4" src="/images/image-1.jpg">
             <div class="col-md-8">
                 <ul>
                     <li>建議政府從根本的體制面改革，改變用路人交通安全觀念、行為，交通安全自然提升</li>
@@ -25,6 +24,7 @@
                     <li>發揮公民力量，協助政府促成社會進步，邁向更好的未來</li>
                 </ul>
             </div>
+            <img class="thumbnail center-block col-md-4" src="/images/image-1.jpg">
         </div>
         <hr class="hidden-lg">
         @if(!$agent->is('iPhone'))
