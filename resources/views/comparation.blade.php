@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @inject('agent', 'Jenssegers\Agent\Agent')
 @section('content')
+    <div class="container">
         <div class="page-header">
             <h1 id="differences" class="text-center">我們與他國的差異</h1>
         </div>
@@ -15,4 +16,5 @@
             </div>
         </div>
         <hr class="hidden-lg">
+    </div>
 @endsection

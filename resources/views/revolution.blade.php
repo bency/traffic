@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @inject('agent', 'Jenssegers\Agent\Agent')
 @section('content')
+    <div class="container">
         <div class="page-header">
             <h1 id="propose" class="text-center">考照制度變革提案</h1>
         </div>
@@ -16,4 +17,5 @@
                 </ul>
             </div>
         </div>
+    </div>
 @endsection
