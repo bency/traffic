@@ -53,7 +53,7 @@
             <div class="collapse navbar-collapse pull-right" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li class="{{ ($current == 'home') ? 'active' : '' }}"><a class="menu-item" href="{{url('/')}}">提案內容</a></li>
+                    <li class="{{ ($current == 'home') ? 'active' : '' }}"><a class="menu-item" href="{{url('/')}}">提案目的</a></li>
                     <li class="{{ ($current == 'observation') ? 'active' : '' }}"><a class="menu-item" href="{{url('/observation')}}">觀察現象</a></li>
                     <li class="{{ ($current == 'comparation') ? 'active' : '' }}"><a class="menu-item" href="{{url('/comparation')}}">他國差異</a></li>
                     <li class="{{ ($current == 'revolution') ? 'active' : '' }}"><a class="menu-item" href="{{url('/revolution')}}">考照改革</a></li>
