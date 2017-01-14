@@ -18,7 +18,6 @@ Route::get('/', function () {
 Route::auth();
 
 Route::group(['middleware' => 'current.page'], function () {
-    Route::get('/home', 'HomeController@home')->name('home');
     Route::get('/observation', 'HomeController@observation')->name('observation');
     Route::get('/comparation', 'HomeController@comparation')->name('comparation');
     Route::get('/revolution', 'HomeController@revolution')->name('revolution');
