@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Route::auth();
 
-Route::get('/home', 'HomeController@index');
-Route::get('/polis', 'HomeController@polis');
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/polis', 'HomeController@polis')->name('polis');
 Route::get('/newlicense', 'HomeController@newlicense');
 Route::get('/countersigned', 'HomeController@getcountersigned');
