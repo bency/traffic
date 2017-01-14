@@ -18,10 +18,14 @@ Route::get('/', function () {
 Route::auth();
 
 Route::group(['middleware' => 'current.page'], function () {
-    Route::get('/observation', 'HomeController@observation')->name('observation');
-    Route::get('/comparation', 'HomeController@comparation')->name('comparation');
-    Route::get('/revolution', 'HomeController@revolution')->name('revolution');
-    Route::get('/polis', 'HomeController@polis')->name('polis');
+
+    $pages = ['observation', 'comparation', 'revolution', 'polis'];
+
+    foreach ($pages as $page) {
+        Route::get('/' . $page, function () use ($page) {
+            return view($page);
+        })->name($page);
+    }
 });
 Route::get('/newlicense', 'HomeController@newlicense');
 Route::get('/countersigned', 'HomeController@getcountersigned');
