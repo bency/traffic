@@ -20,7 +20,7 @@ class HomeController extends Controller
 
     public function home()
     {
-        return view('home', ['current' => 'home']);
+        return view('home');
     }
 
     public function newlicense()
@@ -49,6 +49,6 @@ class HomeController extends Controller
 
     public function polis()
     {
-        return view('polis', ['current' => 'polis']);
+        return view('polis');
     }
 }
