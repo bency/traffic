@@ -93,6 +93,31 @@
             </div>
         </div>
         <div class="row">
+            <div class="col-md-4">
+                <div class="col-md-12">
+                    <div class="panel-transparent panel-info">
+                        <div class="panel-heading">管理者訴求</div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">機車交通死傷高</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="panel-transparent panel-success">
+                        <div class="panel-heading">機車族訴求</div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">路權不安全</li>
+                                <li class="list-group-item">路權不合理</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
             <h3>安全是有價且昂貴的</h3>
         </div>
         <div class="row">
