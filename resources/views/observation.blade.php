@@ -117,7 +117,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <button class="btn-right" disabled><a href="#">共識</a></button>
+                <button class="btn-common" disabled><a href="#">共識</a></button>
             </div>
             <div class="col-md-4">
                 <button class="btn-right" disabled>安全</button>
