@@ -75,3 +75,17 @@ footer {
         //animation: zoom 2s;
     }
 }
+
+$shadow: #925909;
+.btn-safety{
+    margin-top: 50px;
+    padding: 70px 110px;
+    background-color: #e2911f;
+    border-radius: 15px;
+    border-width: 0;
+    font-size: 60px;
+    box-shadow: 1px 1px 0 $shadow,
+    2px 2px 0 $shadow,
+    3px 3px 0 $shadow,
+    4px 4px 0 $shadow;
+}

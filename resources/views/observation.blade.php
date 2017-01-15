@@ -120,7 +120,7 @@
                 <button class="btn-common" disabled><a href="#">共識</a></button>
             </div>
             <div class="col-md-4">
-                <button class="btn-right" disabled>安全</button>
+                <button class="btn-safety" disabled>安全</button>
             </div>
         </div>
         <div class="row">
