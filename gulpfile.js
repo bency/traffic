@@ -16,4 +16,7 @@ elixir(function(mix) {
     mix.scripts('app.js');
     mix.version(['public/css/app.css', 'public/js/app.js']);
     mix.copy('node_modules/bootstrap-sass/assets/fonts/bootstrap/', 'public/fonts/');
+    mix.copy('node_modules/c3/c3.min.css', 'public/css/');
+    mix.copy('node_modules/c3/c3.min.js', 'public/js/');
+    mix.copy('node_modules/d3/d3.min.js', 'public/js/');
 });

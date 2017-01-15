@@ -1,5 +1,10 @@
 @extends('layouts.app')
 @inject('agent', 'Jenssegers\Agent\Agent')
+@section('head')
+<link href="/css/c3.min.css" rel="stylesheet" type="text/css">
+<script src="/js/d3.min.js"></script>
+<script src="/js/c3.min.js"></script>
+@endsection
 @section('content')
     <div class="container">
         <div class="page-header">
