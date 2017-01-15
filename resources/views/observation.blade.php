@@ -116,6 +116,12 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-4">
+                <button class="btn-right" disabled><a href="#">共識</a></button>
+            </div>
+            <div class="col-md-4">
+                <button class="btn-right" disabled>安全</button>
+            </div>
         </div>
         <div class="row">
             <h3>安全是有價且昂貴的</h3>
