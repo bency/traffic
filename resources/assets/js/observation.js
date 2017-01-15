@@ -59,6 +59,11 @@ var chart = c3.generate({
                 text: '死亡',
                 position: 'inner-middle'
             },
+            tick: {
+                format: function (d) {
+                    return d + ' 人';
+                }
+            },
         },
         y2: {
             label: {
