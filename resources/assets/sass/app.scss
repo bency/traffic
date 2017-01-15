@@ -1,5 +1,12 @@
 @import "bootstrap.scss";
 @import "arrow.scss";
+.panel-transparent {
+    margin-bottom: $line-height-computed;
+    background-color: $body-bg;
+    border: 1px solid transparent;
+    border-radius: $panel-border-radius;
+    @include box-shadow(0 1px 1px rgba(0,0,0,.05));
+}
 .c3 {
     color: #000;
 }
