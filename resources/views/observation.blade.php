@@ -39,6 +39,17 @@
             <table>
             <blockquote>表2.1-1</blockquote>
         </div>
+        <div class="row">
+            <h2>少子化嚴重，但年輕人為車禍死傷的高發族群</h2>
+        </div>
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div id="chart"></div>
+                </div>
+            </div>
+        </div>
         <hr class="hidden-lg">
     </div>
+    <script src="{{ elixir('js/observation.js') }}"></script>
 @endsection
