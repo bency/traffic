@@ -6,7 +6,6 @@
             <h1 id="differences" class="text-center">我們與他國的差異</h1>
         </div>
         <div class="row">
-            <img class="thumbnail center-block col-md-4" src="/images/image-3.jpg">
             <div class="col-md-8">
                 <ul>
                     <li>安全教育：世界各國考照費用普遍比較高，並在用路觀念教育相對台灣確實，甚至於從學齡開始即灌輸交通安全觀念，並與民間交通安全團體共同合作推廣</li>
@@ -14,6 +13,7 @@
                     <li>違規記點：我國違規記點累計期間僅6個月，日本為3年，累計期僅1/6，相對太短</li>
                 </ul>
             </div>
+            <img class="thumbnail center-block col-md-4" src="/images/image-3.jpg">
         </div>
         <hr class="hidden-lg">
     </div>
