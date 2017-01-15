@@ -11,7 +11,7 @@
             <h1 id="observation" class="text-center">觀察現象</h1>
         </div>
         <div class="row">
-            <h2>名列已開發國家，但車禍死傷卻遠高於已開發國家</h2>
+            <h3>名列已開發國家，但車禍死傷卻遠高於已開發國家</h3>
             <img class="thumbnail center-block col-md-8 col-xs-12" src="/images/observe1.png">
         </div>
         <div class="row">
@@ -34,7 +34,7 @@
             <blockquote>表2.1-1 國際道路交通死亡率比較(人/10萬人)</blockquote>
         </div>
         <div class="row">
-            <h2>少子化嚴重，但年輕人為車禍死傷的高發族群</h2>
+            <h3>少子化嚴重，但年輕人為車禍死傷的高發族群</h3>
         </div>
         <div class="row">
             <div class="panel panel-default">
