@@ -16,5 +16,8 @@
                 </ul>
             </div>
         </div>
+        <div class="row">
+            <img class="center-block col-md-12" src="/images/revolution.png">
+        </div>
     </div>
 @endsection
