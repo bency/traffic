@@ -94,7 +94,7 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-                <div class="col-md-12">
+                <div class="col-md-12 col-sm-6">
                     <div class="panel-transparent panel-info">
                         <div class="panel-heading">管理者訴求</div>
                         <div class="panel-body">
@@ -104,7 +104,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 col-sm-6">
                     <div class="panel-transparent panel-success">
                         <div class="panel-heading">機車族訴求</div>
                         <div class="panel-body">
