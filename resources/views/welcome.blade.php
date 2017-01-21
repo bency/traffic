@@ -26,22 +26,12 @@
             <img class="thumbnail center-block col-md-4" src="/images/image-1.jpg">
         </div>
         <hr class="hidden-lg">
-        @if(!$agent->is('iPhone'))
-        <hr class="hidden-lg">
         <div class="page-header">
             <h1 id="propose" class="text-center">提案連署書</h1>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIZN5hHVRuQwzPMwgUCXljgan8i_wf5AzdsAINbVYNCrC6xg/viewform?embedded=true#responses" height="500" width="100%" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
             </div>
-        </div>
-        @endif
-        <div class="row">
-            <a data-type="ga-click" data-target="proposal-link" class="btn btn-primary btn-block" data-href="{{ url('/docs/交通安全升級提案書_20161127.pdf') }}">提案詳細內容 <span class="glyphicon glyphicon-new-window"></span></a>
-            @if($agent->is('iPhone'))
-            <a data-type="ga-click" data-target="countersigned-link" class="btn btn-primary btn-block" data-href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2">我同意提案 想幫忙連署 <span class="glyphicon glyphicon-new-window"></span></a>
-            @endif
         </div>
     </div>
 @endsection
