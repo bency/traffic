@@ -2,6 +2,12 @@
 @inject('agent', 'Jenssegers\Agent\Agent')
 @section('content')
     <div class="container">
+        @if(session('message'))
+            <div class="alert alert-{{ session('message')['type'] }}">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                {{ session('message')['text'] }}
+            </div>
+        @endif
         <div class="page-header">
             <h1 class="text-center">提案目的</h1>
         </div>
