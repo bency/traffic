@@ -6,6 +6,7 @@ use App\Http\Requests;
 use App\Countersign;
 use Cache;
 use Illuminate\Http\Request;
+use Illuminate\Database\QueryException;
 
 class HomeController extends Controller
 {
@@ -53,7 +54,11 @@ class HomeController extends Controller
         $email = $request->input('email');
         $phone = $request->input('phone');
         $signed_at = time();
-        $countersign = Countersign::create(['name' => $name, 'email' => $email, 'phone' => $phone, 'signed_at' => $signed_at]);
+        try {
+            $countersign = Countersign::create(['name' => $name, 'email' => $email, 'phone' => $phone, 'signed_at' => $signed_at]);
+        } catch (QueryException $e) {
+            return redirect(route('home'))->with('message', ['type' => 'danger', 'text' => "感謝您的支持，但您已經連署過囉！"]);
+        }
         return redirect(route('home'))->with('message', ['type' => 'success', 'text' => '感謝您的連署！']);
     }
 
