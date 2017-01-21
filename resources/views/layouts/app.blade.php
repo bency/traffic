@@ -55,10 +55,10 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
                     <li class="{{ ($current == 'home') ? 'active' : '' }}"><a class="menu-item" href="{{url('/')}}">提案目的</a></li>
-                    <li class="{{ ($current == 'observation') ? 'active' : '' }}"><a class="menu-item" href="{{url('/observation')}}">觀察現象</a></li>
+                    <li class="{{ ($current == 'observation') ? 'active' : '' }}"><a class="menu-item" href="{{url('/observation')}}">社會觀察</a></li>
                     <li class="{{ ($current == 'comparation') ? 'active' : '' }}"><a class="menu-item" href="{{url('/comparation')}}">他國差異</a></li>
                     <li class="{{ ($current == 'revolution') ? 'active' : '' }}"><a class="menu-item" href="{{url('/revolution')}}">考照改革</a></li>
-                    <li class="{{ ($current == 'polis') ? 'active' : '' }}"><a class="menu-item" href="{{url('/polis')}}">社會討論</a></li>
+                    <li class="{{ ($current == 'polis') ? 'active' : '' }}"><a class="menu-item" href="{{url('/polis')}}">意見交流</a></li>
                     <li><a data-type="ga-click" data-target="menu-countersigned-link" class="menu-item" data-href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2">我要連署 <span class="glyphicon glyphicon-new-window"></span></a></li>
                     <li><a data-type="ga-click" data-target="menu-proposal-link" class="menu-item" data-href="{{ url('/docs/交通安全升級提案書_20161127.pdf') }}">提案詳情 <span class="glyphicon glyphicon-new-window"></span></a></li>
                 </ul>
