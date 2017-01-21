@@ -47,6 +47,16 @@ class HomeController extends Controller
         return response()->json($total);
     }
 
+    public function submitcountersinged(Request $request)
+    {
+        $name = $request->input('name');
+        $email = $request->input('email');
+        $phone = $request->input('phone');
+        $signed_at = time();
+        $countersign = Countersign::create(['name' => $name, 'email' => $email, 'phone' => $phone, 'signed_at' => $signed_at]);
+        return redirect(route('home'))->with('message', ['type' => 'success', 'text' => '感謝您的連署！']);
+    }
+
     public function polis()
     {
         return view('polis');
