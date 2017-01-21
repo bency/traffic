@@ -55,7 +55,6 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
                     <li class="{{ ($current == 'home') ? 'active' : '' }}"><a class="menu-item" href="{{ route('home') }}">提案目的</a></li>
-                    <li><a data-type="ga-click" data-target="menu-countersigned-link" class="menu-item" data-href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2">提案連署 <span class="glyphicon glyphicon-new-window"></span></a></li>
                     <li class="{{ ($current == 'polis') ? 'active' : '' }}"><a class="menu-item" href="{{ route('polis') }}">意見交流</a></li>
                     <li class="{{ ($current == 'observation') ? 'active' : '' }}"><a class="menu-item" href="{{ route('observation') }}">社會觀察</a></li>
                     <li class="{{ ($current == 'comparation') ? 'active' : '' }}"><a class="menu-item" href="{{ route('comparation') }}">他國差異</a></li>
