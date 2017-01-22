@@ -24,7 +24,6 @@
                     <li>發揮公民力量，協助政府促成社會進步，邁向更好的未來</li>
                 </ul>
             </div>
-            <img class="thumbnail center-block col-md-4" src="/images/image-1.jpg">
         </div>
         <hr class="hidden-lg">
         <div class="page-header">
