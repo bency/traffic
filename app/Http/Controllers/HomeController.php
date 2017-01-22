@@ -59,7 +59,7 @@ class HomeController extends Controller
         } catch (QueryException $e) {
             return redirect(route('home'))->with('message', ['type' => 'danger', 'text' => "感謝您的支持，但您已經連署過囉！"]);
         }
-        return redirect(route('home'))->with('message', ['type' => 'success', 'text' => '感謝您的連署！']);
+        return redirect(route('home'))->with('message', ['type' => 'success', 'text' => '感謝您的支持，也希望您能轉寄家人朋友，達成30萬聯署書目標']);
     }
 
     public function polis()
