@@ -9,7 +9,7 @@
     <meta property="og:image" content="{{ url('/images/og-2.png')}}">
     <meta property="og:url" content="{{ url('/')}}">
     <meta property="og:title" content="台灣交通安全協會 - 道路交通安全升級提案">
-    <meta property="og:description" content="路安聯盟結合了台灣交通安全協會、台灣機車路權促進會、小老婆汽機車資訊網等長期關注國內道路安全的團體，亦遍尋國外相關作為，實際到國外體驗駕駛行為，希望用國際觀點，改善國內長期難解的交通安全問題">
+    <meta property="og:description" content="道路安全變革提案，請支持聯署，並轉寄，目標：30萬人連署。台灣每年交通事故死亡超過3000人，即每年失去一所高中師生數的生命。18~19歲剛拿到駕照的年輕人更是機車死亡的高發族群，道路竟成為剛進入社會、國家未來希望的年輕人的最大潛在危險地。">
 
     <title>台灣交通安全協會 - 道路交通安全升級提案</title>
 
