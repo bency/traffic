@@ -26,7 +26,7 @@
                 </ol>
                 <p>道路交通安全已是國安問題，為了我們的家人、孩子的用路安全，請支持路安提案，加入聯署；也希望轉寄家人朋友，達成30萬聯署書目標。</p>
             </div>
-            <div class="col-md-6">
+            <div id="signed-form" class="col-md-6">
                 <div class="page-header">
                     <h1 id="propose" class="text-center">提案連署書</h1>
                 </div>

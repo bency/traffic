@@ -1,5 +1,10 @@
 @import "bootstrap.scss";
 @import "arrow.scss";
+
+#signed-form {
+    box-shadow: 0 0 150px #888;
+}
+
 .panel-transparent {
     margin-bottom: $line-height-computed;
     background-color: $body-bg;
