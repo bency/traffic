@@ -33,26 +33,26 @@
                 <form class="form-horizontal" action="{{ route('submit.counter.sign') }}" method="post">
                     {{ csrf_field() }}
                     <div class="form-group">
-                        <label for="name" class="col-sm-3 control-label">真實姓名</label>
+                        <label for="name" class="col-sm-4 control-label">真實姓名</label>
                         <div class="col-sm-6">
                             <input type="text" class="form-control" id="name" name="name" required placeholder="姓名">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="email" class="col-sm-3 control-label">電子信箱</label>
+                        <label for="email" class="col-sm-4 control-label">電子信箱</label>
                         <div class="col-sm-6">
                             <input type="email" class="form-control" id="email" name="email" required placeholder="常用的電子信箱">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="phone" class="col-sm-3 control-label">聯絡電話</label>
+                        <label for="phone" class="col-sm-4 control-label">聯絡電話</label>
                         <div class="col-sm-6">
                             <input type="phone" class="form-control" id="phone" name="phone" required placeholder="手機或市話">
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-sm-offset-3 col-sm-10">
-                            <button type="submit" class="btn btn-primary">我要連署</button>
+                        <div class="col-sm-offset-1 col-sm-10">
+                            <button type="submit" class="btn btn-primary btn-block">我要連署</button>
                         </div>
                     </div>
                 </form>
