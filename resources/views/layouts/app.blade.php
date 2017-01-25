@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{ url('/images/favicon.png')}}" />
-    <meta property="og:image" content="{{ url('/images/og-1.png')}}">
     <meta property="og:image" content="{{ url('/images/og-2.png')}}">
     <meta property="og:url" content="{{ url('/')}}">
     <meta property="og:title" content="台灣交通安全協會 - 道路交通安全升級提案">
