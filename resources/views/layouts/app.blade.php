@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{ url('/images/favicon.png')}}" />
     <meta property="og:image" content="{{ url('/images/og-2.png')}}">
+    <meta property="og:image" content="{{ url('/images/og-3.png')}}">
     <meta property="og:url" content="{{ url('/')}}">
     <meta property="og:title" content="台灣交通安全協會 - 道路交通安全升級提案">
     <meta property="og:description" content="道路安全變革提案，請支持聯署，並轉寄，目標：30萬人連署。台灣每年交通事故死亡超過3000人，即每年失去一所高中師生數的生命。18~19歲剛拿到駕照的年輕人更是機車死亡的高發族群，道路竟成為剛進入社會、國家未來希望的年輕人的最大潛在危險地。">
