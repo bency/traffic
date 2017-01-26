@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{ url('/images/favicon.png')}}" />
+    <meta property="og:image" content="{{ url('/images/og-4.png')}}">
     <meta property="og:image" content="{{ url('/images/og-2.png')}}">
     <meta property="og:image" content="{{ url('/images/og-3.png')}}">
     <meta property="og:url" content="{{ url('/')}}">
