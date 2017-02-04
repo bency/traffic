@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="page-header">
-            <h1 id="differences" class="text-center">我們與他國的差異</h1>
+            <h1 id="differences" class="text-center">低事故率國家的作法</h1>
         </div>
         <div class="row">
             <div class="col-md-8">
