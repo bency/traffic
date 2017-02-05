@@ -28,7 +28,7 @@
             </div>
             <div id="signed-form" class="col-md-6">
                 <div class="page-header">
-                    <h1 id="propose" class="text-center">提案連署書</h1>
+                    <h1 id="propose" class="text-center">提案聯署書</h1>
                 </div>
                 <form class="form-horizontal" action="{{ route('submit.counter.sign') }}" method="post">
                     {{ csrf_field() }}
@@ -52,7 +52,7 @@
                     </div>
                     <div class="form-group">
                         <div class="col-sm-offset-1 col-sm-10">
-                            <button type="submit" class="btn btn-primary btn-block">我要連署</button>
+                            <button type="submit" class="btn btn-primary btn-block">我要聯署</button>
                         </div>
                     </div>
                 </form>
