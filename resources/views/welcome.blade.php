@@ -14,6 +14,21 @@
             </div>
         @endif
         <div class="row">
+            <div class="visible-lg-block">
+                <iframe src="//slides.com/bency/upgradesafetyoftraffic/embed" width="1170" height="600" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="visible-md-block">
+                <iframe src="//slides.com/bency/upgradesafetyoftraffic/embed" width="970" height="600" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="visible-sm-block">
+                <iframe src="//slides.com/bency/upgradesafetyoftraffic/embed" width="750" height="600" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="visible-xs-block">
+                <iframe src="//slides.com/bency/upgradesafetyoftraffic/embed" width="320" height="280" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="margin-left: auto;margin-right: auto;"></iframe>
+            </div>
+            <hr>
+        </div>
+        <div class="row">
             <div class="col-md-6">
                 <p>台灣每年交通事故死亡超過 3000 人，人均死亡率是日本 3.6 倍、英國 4.7 倍，18 ~ 19 歲剛拿到駕照的年輕人更是機車死亡的高發族群，道路竟成為剛進入社會、國家未來希望的年輕人的最大潛在危險地。</p>
                 <p>關鍵原因在我們給予孩子保護，卻輕忽根本的交通安全教育，無法培育出守法、懂得自我保護的用路人；路考考試項目固定，無法嚴格測驗駕駛技術、觀念，再授予上路的權力；縱容違規，違規記點處罰太輕無效，反觀國外文明素養高的國家，背後都有一套對違法者嚴格處罰的機制。</p>
