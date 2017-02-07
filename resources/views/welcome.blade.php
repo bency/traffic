@@ -9,7 +9,7 @@
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 {{ session('message')['text'] }}
                 @if('success' == session('message')['type'])
-                    <div class="fb-share-button" data-href="https://traffic.keeping.work/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftraffic.keeping.work%2F&amp;src=sdkpreparse">按我分享此連署</a></div>
+                    <div class="fb-share-button" data-href="https://traffic.keeping.work/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftraffic.keeping.work%2F&amp;src=sdkpreparse">按我分享此聯署</a></div>
                 @endif
             </div>
         @endif
@@ -39,7 +39,7 @@
                     <li>加重違規記點項目、點數、及累積期延長到3年，並配套吊銷駕照、重新考照機制，嚴格處罰違規者</li>
                     <li>落實交通安全教育於學校、社會</li>
                 </ol>
-                <p>道路交通安全已是國安問題，為了我們的家人、孩子的用路安全，請支持路安提案，加入聯署；也希望轉寄家人朋友，宣傳理念，一起連署。</p>
+                <p>道路交通安全已是國安問題，為了我們的家人、孩子的用路安全，請支持路安提案，加入聯署；也希望轉寄家人朋友，宣傳理念，一起聯署。</p>
             </div>
             <div id="signed-form" class="col-md-6">
                 <div class="page-header">

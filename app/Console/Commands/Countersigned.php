@@ -23,7 +23,7 @@ class Countersigned extends Command
      *
      * @var string
      */
-    protected $description = '匯入連署名單';
+    protected $description = '匯入聯署名單';
 
     /**
      * Create a new command instance.
@@ -83,14 +83,14 @@ class Countersigned extends Command
             try {
                 $signed = CountersignService::add($signed);
             } catch (QueryException $e) {
-                $this->comment("重複連署：" . $e->getMessage());
+                $this->comment("重複聯署：" . $e->getMessage());
             }
         }
         $total = Countersign::all()->count();
         $old_total = Cache::get('total');
         if ($total > ($old_total + 100)) {
             $client = new Client(env('SLACK_INCOMING_HOOK'));
-            $client->from('TrafficBot')->to('#robotstaging')->send("連署人數： $total");
+            $client->from('TrafficBot')->to('#robotstaging')->send("聯署人數： $total");
             Cache::put('total', $total);
         }
     }

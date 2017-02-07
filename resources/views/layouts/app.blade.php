@@ -48,7 +48,7 @@
             <div class="collapse navbar-collapse pull-right" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li class="{{ ($current == 'home') ? 'active' : '' }}"><a class="menu-item" href="{{ route('home') }}">提案連署</a></li>
+                    <li class="{{ ($current == 'home') ? 'active' : '' }}"><a class="menu-item" href="{{ route('home') }}">提案聯署</a></li>
                     <li class="{{ ($current == 'polis') ? 'active' : '' }}"><a class="menu-item" href="{{ route('polis') }}">意見交流</a></li>
                     <li class="{{ ($current == 'observation') ? 'active' : '' }}"><a class="menu-item" href="{{ route('observation') }}">社會觀察</a></li>
                     <li class="{{ ($current == 'comparation') ? 'active' : '' }}"><a class="menu-item" href="{{ route('comparation') }}">他國作法</a></li>
@@ -70,7 +70,7 @@
         </dl>
     </footer>
     <nav id="navbar" class="navbar-footer navbar-fixed-bottom">
-        <p data-type="ga-click" data-target="bottom-nav" data-href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2" class="text-center">已有 <span class="countersigned-count label label-danger">...</span> 人參加連署</p>
+        <p data-type="ga-click" data-target="bottom-nav" data-href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2" class="text-center">已有 <span class="countersigned-count label label-danger">...</span> 人參加聯署</p>
     </nav>
 </body>
 </html>
