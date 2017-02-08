@@ -63,7 +63,7 @@ class Countersigned extends Command
         $total = $response->getValues()[0][0];
 
         $end = $total + 1;
-        $range = "sheet1!A2:D$end";
+        $range = "sheet1!A2:E$end";
         $response = $service->spreadsheets_values->get($spreadsheetId, $range);
         $signed_list = $response->getValues();
         foreach ($signed_list as $signed) {
