@@ -27,6 +27,14 @@
     @yield('head')
 </head>
 <body id="app-layout" data-spy="scroll" data-target="#navbar">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.6";
+fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -72,6 +80,7 @@
     <nav id="navbar" class="navbar-footer navbar-fixed-bottom">
         <p data-type="ga-click" data-target="bottom-nav" data-href="https://goo.gl/forms/OZ2HIMpC8bMiqFIl2" class="text-center">已有 <span class="countersigned-count label label-danger">...</span> 人參加聯署</p>
     </nav>
+    <div class="fb-quote" data-href="https://traffic.keeping.work"></div>
 </body>
 </html>
 
