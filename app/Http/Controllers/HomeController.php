@@ -53,9 +53,10 @@ class HomeController extends Controller
         $name = $request->input('name');
         $email = $request->input('email');
         $phone = $request->input('phone');
+        $birth = $request->input('birth');
         $signed_at = time();
         try {
-            $countersign = Countersign::create(['name' => $name, 'email' => $email, 'phone' => $phone, 'signed_at' => $signed_at]);
+            $countersign = Countersign::create(['name' => $name, 'email' => $email, 'phone' => $phone, 'birth' => $birth, 'signed_at' => $signed_at]);
             Cache::increment('countersign.total');
         } catch (QueryException $e) {
             return redirect(route('home'))->with('message', ['type' => 'danger', 'text' => "感謝您的支持，但您已經聯署過囉！"]);

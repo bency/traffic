@@ -66,6 +66,12 @@
                         </div>
                     </div>
                     <div class="form-group">
+                        <label for="phone" class="col-sm-4 control-label">出生年份</label>
+                        <div class="col-sm-6">
+                            <input type="phone" class="form-control" id="birth" name="birth" required placeholder="西元年">
+                        </div>
+                    </div>
+                    <div class="form-group">
                         <div class="col-sm-offset-1 col-sm-10">
                             <button type="submit" class="btn btn-primary btn-block">我要聯署</button>
                         </div>
