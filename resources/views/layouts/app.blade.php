@@ -63,7 +63,7 @@ fjs.parentNode.insertBefore(js, fjs);
             <div class="collapse navbar-collapse pull-right" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li class="{{ ($current == 'home') ? 'active' : '' }}"><a class="menu-item" href="{{ route('home') }}">提案聯署</a></li>
+                    <li class="{{ ($current == 'home') ? 'active' : '' }}"><a class="menu-item" href="{{ route('home') }}"><span class="glyphicon glyphicon-pencil"></span> 提案聯署</a></li>
                     <li class="{{ ($current == 'polis') ? 'active' : '' }}"><a class="menu-item" href="{{ route('polis') }}">意見交流</a></li>
                     <li class="{{ ($current == 'observation') ? 'active' : '' }}"><a class="menu-item" href="{{ route('observation') }}">社會觀察</a></li>
                     <li class="{{ ($current == 'comparation') ? 'active' : '' }}"><a class="menu-item" href="{{ route('comparation') }}">他國作法</a></li>
