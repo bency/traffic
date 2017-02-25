@@ -54,6 +54,12 @@
                         </div>
                     </div>
                     <div class="form-group">
+                        <label for="id" class="col-sm-4 control-label">身分證字號</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="id" name="id" required placeholder="身份證字號">
+                        </div>
+                    </div>
+                    <div class="form-group">
                         <label for="email" class="col-sm-4 control-label">電子信箱</label>
                         <div class="col-sm-6">
                             <input type="email" class="form-control" id="email" name="email" required placeholder="常用的電子信箱">

@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Countersign extends Model
 {
     public $timestamps = false;
-    public $fillable = ['name', 'signed_at', 'phone', 'email', 'birth'];
+    public $fillable = ['id', 'name', 'signed_at', 'phone', 'email', 'birth'];
 }
