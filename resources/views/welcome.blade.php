@@ -77,6 +77,9 @@
                         <div class="col-sm-offset-1 col-sm-10">
                             <button type="submit" class="btn btn-primary btn-block">我要聯署</button>
                         </div>
+                        <div class="col-sm-offset-1 col-sm-10">
+                            <div class="fb-share-button" data-href="https://traffic.keeping.work/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftraffic.keeping.work%2F&amp;src=sdkpreparse">分享</a></div>
+                        </div>
                     </div>
                 </form>
             </div>
