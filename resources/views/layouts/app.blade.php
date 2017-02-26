@@ -65,7 +65,7 @@ fjs.parentNode.insertBefore(js, fjs);
                 <ul class="nav navbar-nav navbar-right">
                     <li class="{{ ($current == 'home') ? 'active' : '' }}"><a class="menu-item" href="{{ route('home') }}"><span class="glyphicon glyphicon-pencil"></span> 提案聯署</a></li>
                     <li class="{{ ($current == 'polis') ? 'active' : '' }}"><a class="menu-item" href="{{ route('polis') }}"><i class="fa fa-comments" aria-hidden="true"></i> 意見交流</a></li>
-                    <li><a data-type="ga-click" data-target="menu-proposal-link" class="menu-item" data-href="{{ url('/docs/交通安全升級提案書_20161127.pdf') }}">提案詳情 <span class="glyphicon glyphicon-new-window"></span></a></li>
+                    <li class="{{ ($current == 'popose') ? 'active' : '' }}"><a class="menu-item" href="{{ route('propose') }}"><i class="glyphicon glyphicon-book" aria-hidden="true"></i> 致交通部提案書</a></li>
                 </ul>
             </div>
         </div>

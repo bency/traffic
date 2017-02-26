@@ -20,7 +20,7 @@ Route::auth();
 Route::group(['middleware' => 'current.page'], function () {
 
     Route::post('/submitcountersigned', 'HomeController@submitcountersinged')->name('submit.counter.sign');
-    $pages = ['polis'];
+    $pages = ['polis', 'propose'];
 
     foreach ($pages as $page) {
         Route::get('/' . $page, function () use ($page) {
