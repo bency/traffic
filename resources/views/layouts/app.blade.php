@@ -60,9 +60,9 @@ fjs.parentNode.insertBefore(js, fjs);
                 </a>
             </div>
 
-            <div class="collapse navbar-collapse pull-right" id="app-navbar-collapse">
+            <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
                     <li class="{{ ($current == 'home') ? 'active' : '' }}"><a class="menu-item" href="{{ route('home') }}"><span class="glyphicon glyphicon-pencil"></span> 提案聯署</a></li>
                     <li class="{{ ($current == 'polis') ? 'active' : '' }}"><a class="menu-item" href="{{ route('polis') }}"><i class="fa fa-comments" aria-hidden="true"></i> 意見交流</a></li>
                     <li class="{{ ($current == 'observation') ? 'active' : '' }}"><a class="menu-item" href="{{ route('observation') }}"><i class="fa fa-eye" aria-hidden="true"></i> 社會觀察</a></li>
