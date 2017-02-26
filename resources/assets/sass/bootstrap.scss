@@ -19,6 +19,14 @@ $panel-body-padding: 15px 15px 0 15px;
 $list-group-bg: $body-bg;
 $list-group-border: $body-bg;
 $brand-primary: #fff;
+$nav-tabs-active-link-hover-bg: transparent;
+$nav-tabs-active-link-hover-color: $text-color;
+$dropdown-link-active-color: #333;
+$dropdown-link-active-bg: #d4d4d4;
+$nav-link-hover-bg: transparent;
+.dropdown-menu > li > a {
+    text-shadow: none;
+}
 
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 mark {
