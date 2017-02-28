@@ -78,7 +78,7 @@
                             <button type="submit" class="btn btn-primary btn-block">我要聯署</button>
                         </div>
                         <div class="col-sm-offset-1 col-sm-10">
-                            <a href="http://line.naver.jp/R/msg/text/?{{ urlencode('讓我們用公民的力量，從根本制度改變台灣交通環境，請上 https://traffic.keeping.work 連署，加入改變的行列') }}"><img src="/images/168x40.png" style="width:116px"></a>
+                            <a href="http://line.naver.jp/R/msg/text/?{{ urlencode('讓我們用公民的力量，從根本制度改變台灣交通環境，請上') }}%0A{{ urlencode('https://traffic.keeping.work') }}%0A{{ urlencode('連署，加入改變的行列') }}"><img src="/images/168x40.png" style="width:116px"></a>
                             <div class="fb-share-button" data-href="https://traffic.keeping.work/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftraffic.keeping.work%2F&amp;src=sdkpreparse">分享</a></div>
                         </div>
                     </div>
