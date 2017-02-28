@@ -4,7 +4,6 @@
     <div class="container">
         <ul class="nav nav-tabs hidden-xs" role="tablist">
             <li class="active" role="presentation"><a href="#6bbhzmksaz" aria-controls="home" role="tab" data-toggle="tab">交通是國安問題</a></li>
-            <li role="presentation"><a href="#6ysmbjymk8" aria-controls="settings" role="tab" data-toggle="tab">加重記點</a></li>
             <li role="presentation"><a href="#5ur46rdmvk" aria-controls="settings" role="tab" data-toggle="tab">公開交通數據</a></li>
             <li role="presentation" class="dropdown">
                 <a href="#" class="dropdown-toggle" id="license" data-toggle="dropdown" aria-controls="license-contents" aria-expanded="false">駕照、訓練 <span class="caret"></span></a>
