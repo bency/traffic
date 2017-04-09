@@ -28,5 +28,4 @@ Route::group(['middleware' => 'current.page'], function () {
         })->name($page);
     }
 });
-Route::get('/newlicense', 'HomeController@newlicense');
 Route::get('/countersigned', 'HomeController@getcountersigned');
